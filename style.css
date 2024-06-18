@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.price {
+    color: #e74c3c;
+    font-size: 1.2em;
+}
+.old-price {
+    text-decoration: line-through;
+    color: #bdc3c7;
+    font-size: 0.9em;
+}
+.rating i {
+    color: #f1c40f;
+}
+.card-footer {
+    background: linear-gradient(90deg, #ff758c 0%, #ff7eb3 100%);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+img
+{
+    height:270px;
+    width:auto;
+}
